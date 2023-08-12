@@ -1,0 +1,50 @@
+:root {
+    background: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    color:blue;
+}
+.green{
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box>div {
+    background-color: green;
+}
+
+.box>p {
+    background-color: black;
+}
+
+.brown {
+    color: white;
+    background-color: brown;
+}
+
+.interferesWithOther>li,
+.header-button+span {
+    background-color: red;
+}
+.susid~P {
+    background-color: blue;
+    color: white;
+}
+
+.salo,
+#bread {
+    background-color: yellow;
+}
+
+.first-task li:first-child {
+    color: white;
+}
+
