@@ -1,7 +1,22 @@
-html {
-  max-width: 720px;
+.card > p {
+  color:aqua;
+  -webkit-text-fill-color: brown;
+  -webkit-text-stroke: 1px blue;
 }
 
-body {
-  background: #fff;
+p:focus,
+p:active,
+p:hover{
+  -webkit-text-fill-color: rgb(red, green, blue);
+  -webkit-text-stroke: 1px blue;
+}
+
+#test {
+
+text-align: center;
+}
+
+
+* {
+	font-family: sans-serif;
 }
